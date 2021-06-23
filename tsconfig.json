@@ -5,7 +5,12 @@
     "jsx": "preserve",
     "strictFunctionTypes": true,
     "sourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false
   },
   "exclude": ["node_modules", "**/node_modules/*"]
 }
